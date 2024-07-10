@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>home|kame website</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+
+</head>
+
+<body class="home">
+  <div id="wrap">
+    <header>
+      <div class=example>
+      <div class="flex"></div>
+      <div class="box fadeIn"><h1><a href="index.html">Portfolio</div></a></h1>
+      <input type="checkbox" id="navBtn">
+      <label for="navBtn" class="open"><span></span></label>
+
+      <nav>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="works.html">WORKS</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul></div>
+      </nav>
+      <div class="main-visual">
+
+      </div>
+    </header>
+
+
+
+    <main>
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <picture>
+              <source media="(max-width: 599px)" srcset="images/main-square.jpg">
+              <source media="(min-width: 600px)" srcset="images/main.jpg">
+              <img src="images/main.jpg" alt="メインビジュアル">
+            </picture>
+          </div>
+          <div class="swiper-slide">
+            <picture>
+              <source media="(max-width: 599px)" srcset="images/main2-square.jpg">
+              <source media="(min-width: 600px)" srcset="images/main2.jpg">
+              <img src="images/main.jpg" alt="メインビジュアル">
+            </picture>
+          </div>
+          <div class="swiper-slide">
+            <picture>
+              <source media="(max-width: 599px)" srcset="images/main3-square.jpg">
+              <source media="(min-width: 600px)" srcset="images/main3.jpg">
+              <img src="images/main.jpg" alt="メインビジュアル">
+            </picture>
+          </div>
+
+        </div>
+        <!-- If we need pagination -->
+       
+
+    <div class="flex">
+         <br><br>
+          <div class="box fadeIn">私のポートフォリオ</div>
+    </div>  
+
+</div>
+
+    </main>
+
+    <footer>
+      <p>© My Site </p>
+    </footer>
+
+  </div>
+</body>
+
+</html>
